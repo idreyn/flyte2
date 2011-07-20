@@ -1,0 +1,1 @@
+﻿package flyte.events{	import flash.events.Event;		public class CollectionEvent extends flash.events.Event	{		public static const COLLECTED:String = "collectionEvent"					public function CollectionEvent(type:String)		{			super(type)		}	}}
